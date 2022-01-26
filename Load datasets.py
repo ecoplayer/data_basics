@@ -49,21 +49,9 @@ dfab=pd.read_csv(url, header=None)
 dfab
 
 
-# <div style="text-align: right"> <font size=5>
-#     <a href="#indice"><i class="fa fa-arrow-circle-up" aria-hidden="true" style="color:#004D7F"></i></a>
-# </font></div>
-# 
-# ---
-
-# In[ ]:
 
 
 #Dataset descriptions
-
-
-# In[16]:
-
-
 import pandas as pd
 filename= "data/housing.csv"
 columns=["CRIM","ZN","INDUS","CHAS","NOX","RM","AGE","DIS","RAD","TAX","PTRATIO","B","LSTAT","MEDV"]
