@@ -90,7 +90,7 @@ import numpy as np
 filename= "data/pima-indians-diabetes.csv"
 raw_data=open(filename, "rb")
 data=np.loadtxt(raw_data, delimiter = ",")
-print(data)
+# print(data)
 print(data.shape)
 
 
